@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los chistes de Chuck</title>
+    <link rel="stylesheet" href="estilos.css"> 
+</head>
+<body>
+    
+    <img src="img/Chuck-Norris-PNG-Transparent-Image.png" alt=""> <!-- Imagen de Chuck Norris -->
+    <div class="container">
+        
+        <h1>Chistes de Chuck Norris</h1> 
+
+        <!-- Formulario para buscar chistes -->
+        <form id="searchForm">
+            <label for="category">Seleccione una categoría:</label>
+            <select id="category" name="category">
+                <option value="random">Chiste aleatorio</option>
+                <option value="dev">Chiste informático</option>
+                <option value="animal">Chiste de animales</option>
+                <!-- Agrega más opciones según la API -->
+            </select>
+
+            <!-- Botón para obtener un chiste -->
+            <button type="button" onclick="searchJoke()">Obtener Chiste</button>
+        </form>
+
+        <!-- Contenedor para mostrar chistes guardados -->
+        <div id="savedJokes">
+            <!-- Aquí se mostrarán los chistes guardados -->
+        </div>
+
+        <!-- Contenedor para mostrar los resultados de búsqueda -->
+        <div id="results"></div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="index.js"></script>
+    
+</body>
+</html>

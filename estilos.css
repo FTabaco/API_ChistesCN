@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #5dbbdad6; 
+    margin: 0;
+    padding: 0;
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body img {
+    width: 100px; /* Ajusta el tamaño según tu preferencia */
+    height: auto;
+    display: block;
+    margin: 40px auto; /* Alinea la imagen en el centro con márgenes superiores e inferiores de 20px */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#results {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #5345a0;
+}
+
+.card button.delete {
+    background-color: #ff8c00; /* Color naranja */
+    color: #fff;
+}
+
+.card button.container {
+    background-color: #a22f05; /* Color rojo */
+    color: #fff;
+}
+
+#savedJokes {
+    text-align: center; /* Para centrar el contenido */
+}
